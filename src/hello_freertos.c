@@ -8,6 +8,7 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
+#include "hall.h"
 
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
@@ -18,6 +19,7 @@
 
 int count = 0;
 bool on = false;
+sma_t filter = {.N = 4};
 
 #define MAIN_TASK_PRIORITY      ( tskIDLE_PRIORITY + 1UL )
 #define BLINK_TASK_PRIORITY     ( tskIDLE_PRIORITY + 2UL )
@@ -43,9 +45,10 @@ void main_task(__unused void *params) {
     xTaskCreate(blink_task, "BlinkThread",
                 BLINK_TASK_STACK_SIZE, NULL, BLINK_TASK_PRIORITY, NULL);
     while(1) {
-        uint16_t result = adc_read();
-        printf("Raw: 0x%03x, Voltage: %d\n", result, result * 3300 / (1 << 12));
-        vTaskDelay(1000);
+        uint16_t raw = adc_read();
+        uint16_t result = sma_push(&filter, raw) * 3300 / (1 << 12);
+        printf("Voltage: %d\n", result);
+        vTaskDelay(100);
     }
 }
 
@@ -56,6 +59,7 @@ int main( void )
     const char *rtos_name;
     rtos_name = "FreeRTOS";
     TaskHandle_t task;
+    sma_init(&filter);
     xTaskCreate(main_task, "MainThread",
                 MAIN_TASK_STACK_SIZE, NULL, MAIN_TASK_PRIORITY, &task);
     vTaskStartScheduler();

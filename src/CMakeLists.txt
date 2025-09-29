@@ -1,6 +1,7 @@
 # This is the main binary. List your C files here.
 add_executable(hello_freertos
     hello_freertos.c
+    hall.c
     )
 
 pico_set_program_name(hello_freertos "test")
@@ -17,6 +18,8 @@ target_link_libraries(hello_freertos PRIVATE
   pico_multicore
   pico_async_context_freertos
   FreeRTOS-Kernel-Heap4
+  hardware_gpio
+  hardware_adc
 )
 
 # The CYW43 is the Wifi/Bluetooth module. If the board is set to pico_w, this
