@@ -5,6 +5,10 @@ import matplotlib.animation as animation
 import time
 import re
 
+# ==== Serial Filters ====
+csv_re     = re.compile(r'^\s*(\d+)\s*,\s*(-?\d+(?:\.\d+)?)\s*$')  # t_us,value
+labeled_re = re.compile(r'Voltage:\s*(-?\d+(?:\.\d+)?)')
+plain_re   = re.compile(r'^\s*(-?\d+(?:\.\d+)?)\s*$')
 
 # ==== Config ====
 PORT = "/dev/tty.usbmodem14101"     # Change to serial port
@@ -12,8 +16,8 @@ BAUD = 115200                       # Change to baud rate
 SAVE_FILE = "hall_data.csv"
 PSD_FILE = "hall_psd.csv"
 k = 30      # sensitivity mV per mT, 30 for A2 @3.3v, 60 for A1 @3.3v
-N = 512     # buffer size for PSD
-fs = 10.0   # sampling frequency in Hz
+N = 10240     # buffer size for PSD
+fs = 750.0   # sampling frequency in Hz
 
 # ==== INIT ====
 ser = serial.Serial(PORT, BAUD)
@@ -24,11 +28,11 @@ timestamps = []
 
 # ==== PLOT ====
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8,6))
-line_ts, = ax1.plot([], [], lw=1)
+line_ts, = ax1.plot([], [], lw=.25)
 line_psd, = ax2.plot([], [], lw=1)
 
 ax1.set_xlabel("Sample")
-ax1.set_ylabel("B (Tesla)")
+ax1.set_ylabel("Voltage (mV)")
 ax1.set_title("Hall Sensor Time Series")
 
 ax2.set_title("Hall Sensor PSD")
@@ -41,20 +45,37 @@ line_psd.set_data([1.0], [tiny])
 ax2.set_xlim(0.9, 1.1)
 ax2.set_ylim(tiny, 10 * tiny)
 
+def parse_UART(line: str):
+    m = csv_re.match(line)
+    if m:
+        t_us = int(m.group(1))
+        val = float(m.group(2))
+        t_us = t_us * 1e-6
+    else:
+        t_s = time.time()
+        m = labeled_re.search(line) or plain_re.match(line)
+        if not m:
+            return None
+        val = float(m.group(1))
+
+    return (t_us, val)
+
 def update(frame):
     global values, timestamps
 
     while ser.in_waiting:
         line_bytes = ser.readline().decode("utf-8", errors="ignore").strip()
-        match = re.search(r"Voltage:\s*(\d+)", line_bytes)
-        if match:
-            val = int(match.group(1))
-            values.append(val)
-            timestamps.append(time.time())
+        parsed = parse_UART(line_bytes)
+        if parsed is None:
+            continue
+        t_s, mv = parsed
 
-            # save line
-            with open(SAVE_FILE, "a") as f:
-                f.write(f"{timestamps[-1]},{val}\n")
+        values.append(mv)
+        timestamps.append(t_s)
+
+        # save line
+        with open(SAVE_FILE, "a") as f:
+            f.write(f"{t_s:.6f},{mv:.3f}\n")
 
     # Time series plot
     x = np.arange(len(values[-N:]))

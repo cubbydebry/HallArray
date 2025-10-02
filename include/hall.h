@@ -1,6 +1,9 @@
 #include <stdint.h>
 #include <stddef.h>
 
+#define FS_HZ 750
+#define PERIOD pdMS_TO_TICKS(1000 / FS_HZ)
+
 typedef struct {
     int32_t sum;
     uint16_t buf[64];

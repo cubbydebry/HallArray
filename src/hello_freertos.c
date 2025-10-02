@@ -42,13 +42,15 @@ void blink_task(__unused void *params) {
 }
 
 void main_task(__unused void *params) {
+    TickType_t last = xTaskGetTickCount();
     xTaskCreate(blink_task, "BlinkThread",
                 BLINK_TASK_STACK_SIZE, NULL, BLINK_TASK_PRIORITY, NULL);
-    while(1) {
+    for(;;) {
+        vTaskDelayUntil(&last, PERIOD);
         uint16_t raw = adc_read();
-        uint16_t result = sma_push(&filter, raw) * 3300 / (1 << 12);
-        printf("Voltage: %d\n", result);
-        vTaskDelay(100);
+        uint16_t mv = raw * 3300 / 4095;
+        uint32_t t_us = (uint32_t) time_us_64();
+        printf("%lu,%d\n", (unsigned long)t_us, mv);
     }
 }
 
