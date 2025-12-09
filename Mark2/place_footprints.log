@@ -1,0 +1,116 @@
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'darwin'
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.1
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x1318a5310>
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C120 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U44 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C114 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C113 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C112 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C111 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C110 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C109 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R81 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint A1 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C128 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U41 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C123 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J4 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R75 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C119 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U45 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R78 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R73 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C117 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R77 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R76 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R80 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U37 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C118 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C115 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R74 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C121 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R79 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U43 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C124 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C125 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C126 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C116 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint L1 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C122 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U40 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U38 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U39 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U42 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C127 on root level
+11-21 21:57:39 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='R82'
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='R82', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x13197a930> >, fp_id='BC21836D-021B-41B7-B6AF-7CC57871A106', sheet_id=['/Sensor Unit/'], filename=['Sensor_Unit.kicad_sch'])
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:['Sensor_Unit.kicad_sch']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 1
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 291:self.ref_fp.sheet_id[index] = '/Sensor Unit/'
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 292:self.ref_fp.sheet_id = ['/Sensor Unit/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.place_footprints 284:constructing a list of sheets suitable for replication on level:'/Sensor Unit/', file:'Sensor_Unit.kicad_sch'
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.place_footprints 308:suitable sheets are:[['/Sensor Unit1/'], ['/Sensor Unit2/'], ['/Sensor Unit3/'], ['/Sensor Unit4/'], ['/Sensor Unit5/'], ['/Sensor Unit6/'], ['/Sensor Unit7/'], ['/Sensor Unit8/'], ['/Sensor Unit9/'], ['/Sensor Unit10/'], ['/Sensor Unit11/'], ['/Sensor Unit12/'], ['/Sensor Unit13/'], ['/Sensor Unit14/'], ['/Sensor Unit15/'], ['/Sensor Unit16/'], ['/Sensor Unit17/'], ['/Sensor Unit18/'], ['/Sensor Unit19/'], ['/Sensor Unit20/'], ['/Sensor Unit21/'], ['/Sensor Unit22/'], ['/Sensor Unit23/'], ['/Sensor Unit24/'], ['/Sensor Unit25/'], ['/Sensor Unit26/'], ['/Sensor Unit27/'], ['/Sensor Unit28/'], ['/Sensor Unit29/'], ['/Sensor Unit30/'], ['/Sensor Unit31/'], ['/Sensor Unit32/'], ['/Sensor Unit33/'], ['/Sensor Unit34/'], ['/Sensor Unit35/']]
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 306:self.list_sheetsChoices: [['/Sensor Unit1/'], ['/Sensor Unit2/'], ['/Sensor Unit3/'], ['/Sensor Unit4/'], ['/Sensor Unit5/'], ['/Sensor Unit6/'], ['/Sensor Unit7/'], ['/Sensor Unit8/'], ['/Sensor Unit9/'], ['/Sensor Unit10/'], ['/Sensor Unit11/'], ['/Sensor Unit12/'], ['/Sensor Unit13/'], ['/Sensor Unit14/'], ['/Sensor Unit15/'], ['/Sensor Unit16/'], ['/Sensor Unit17/'], ['/Sensor Unit18/'], ['/Sensor Unit19/'], ['/Sensor Unit20/'], ['/Sensor Unit21/'], ['/Sensor Unit22/'], ['/Sensor Unit23/'], ['/Sensor Unit24/'], ['/Sensor Unit25/'], ['/Sensor Unit26/'], ['/Sensor Unit27/'], ['/Sensor Unit28/'], ['/Sensor Unit29/'], ['/Sensor Unit30/'], ['/Sensor Unit31/'], ['/Sensor Unit32/'], ['/Sensor Unit33/'], ['/Sensor Unit34/'], ['/Sensor Unit35/']]
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit35/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit34/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit33/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit32/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit31/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit30/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit29/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit28/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit27/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit26/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit25/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit24/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit23/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit22/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit21/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit20/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit19/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit18/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit17/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit16/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit15/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit14/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit13/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit12/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit11/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit10/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit9/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit8/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit7/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit6/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit5/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit4/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit3/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit2/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit1/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Sensor Unit/']
+11-21 21:57:43 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 314:self.ref_list: ['R117', 'R116', 'R115', 'R114', 'R113', 'R112', 'R111', 'R110', 'R109', 'R108', 'R107', 'R106', 'R105', 'R104', 'R103', 'R102', 'R101', 'R100', 'R99', 'R98', 'R97', 'R96', 'R95', 'R94', 'R93', 'R92', 'R91', 'R90', 'R89', 'R88', 'R87', 'R86', 'R85', 'R84', 'R83']
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 195:Saving config sheet
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 220:Preparing config for sheet matrix
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 227:Saving config file
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 229:Saved the config file
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 746:Sheets selected: [['/Sensor Unit1/'], ['/Sensor Unit2/'], ['/Sensor Unit3/'], ['/Sensor Unit4/'], ['/Sensor Unit5/'], ['/Sensor Unit6/'], ['/Sensor Unit7/'], ['/Sensor Unit8/'], ['/Sensor Unit9/'], ['/Sensor Unit10/'], ['/Sensor Unit11/'], ['/Sensor Unit12/'], ['/Sensor Unit13/'], ['/Sensor Unit14/'], ['/Sensor Unit15/'], ['/Sensor Unit16/'], ['/Sensor Unit17/'], ['/Sensor Unit18/'], ['/Sensor Unit19/'], ['/Sensor Unit20/'], ['/Sensor Unit21/'], ['/Sensor Unit22/'], ['/Sensor Unit23/'], ['/Sensor Unit24/'], ['/Sensor Unit25/'], ['/Sensor Unit26/'], ['/Sensor Unit27/'], ['/Sensor Unit28/'], ['/Sensor Unit29/'], ['/Sensor Unit30/'], ['/Sensor Unit31/'], ['/Sensor Unit32/'], ['/Sensor Unit33/'], ['/Sensor Unit34/'], ['/Sensor Unit35/']]
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 755:Footprints to place: ['R82', 'R83', 'R84', 'R85', 'R86', 'R87', 'R88', 'R89', 'R90', 'R91', 'R92', 'R93', 'R94', 'R95', 'R96', 'R97', 'R98', 'R99', 'R100', 'R101', 'R102', 'R103', 'R104', 'R105', 'R106', 'R107', 'R108', 'R109', 'R110', 'R111', 'R112', 'R113', 'R114', 'R115', 'R116', 'R117']
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+11-21 21:58:37 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 828:Placing complete
